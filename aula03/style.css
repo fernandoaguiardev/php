@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(122, 29, 189);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+    font-size: 25px;
+    padding-left: 5vw;
+
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+main {
+    flex-grow: 1;
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: black;
+    color: rgb(95, 213, 26);
+    padding: 5px;
+    border-radius: 5px;
+    width: 100vw;
+}
+
+section h1 {
+    background-color: rgb(0, 51, 153);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#terminal {
+    margin: 0;
+
+}
+
+#terminal p {
+    padding: 20px;
+    font-family: "Cascadia Code", monospace;
+}
